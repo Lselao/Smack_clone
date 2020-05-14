@@ -1,0 +1,10 @@
+project 'Smack_clone.xcodeproj'
+
+target 'Smack_clone' do
+
+use_frameworks!
+
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'Socket.IO-Client-Swift'
+end

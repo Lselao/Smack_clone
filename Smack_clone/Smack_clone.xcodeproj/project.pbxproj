@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B9215C246DE6B50012F575 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B9215B246DE6B50012F575 /* SWRevealViewController.m */; };
+		A1B92161246DE8D00012F575 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B92160246DE8D00012F575 /* ChannelVC.swift */; };
+		A1B92163246DE9330012F575 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B92162246DE9330012F575 /* ChatVC.swift */; };
+		A1E0A42D246DE2DD002D5830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0A42C246DE2DD002D5830 /* AppDelegate.swift */; };
+		A1E0A42F246DE2DD002D5830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0A42E246DE2DD002D5830 /* SceneDelegate.swift */; };
+		A1E0A431246DE2DD002D5830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0A430246DE2DD002D5830 /* ViewController.swift */; };
+		A1E0A434246DE2DD002D5830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A432246DE2DD002D5830 /* Main.storyboard */; };
+		A1E0A436246DE2DE002D5830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A435246DE2DE002D5830 /* Assets.xcassets */; };
+		A1E0A439246DE2DE002D5830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A437246DE2DE002D5830 /* LaunchScreen.storyboard */; };
+		A1E0A444246DE2DE002D5830 /* Smack_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0A443246DE2DE002D5830 /* Smack_cloneTests.swift */; };
+		A1E0A44F246DE2DE002D5830 /* Smack_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0A44E246DE2DE002D5830 /* Smack_cloneUITests.swift */; };
+		D928B56FFDF39B10CFB1BA9B /* Pods_Smack_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB5ECBD00B88E2C5CB3BBF5 /* Pods_Smack_clone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1E0A440246DE2DE002D5830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E0A421246DE2DD002D5830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E0A428246DE2DD002D5830;
+			remoteInfo = Smack_clone;
+		};
+		A1E0A44B246DE2DE002D5830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E0A421246DE2DD002D5830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E0A428246DE2DD002D5830;
+			remoteInfo = Smack_clone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CB5ECBD00B88E2C5CB3BBF5 /* Pods_Smack_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A08C83A5CAE992039440FFF /* Pods-Smack_clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack_clone.release.xcconfig"; path = "Target Support Files/Pods-Smack_clone/Pods-Smack_clone.release.xcconfig"; sourceTree = "<group>"; };
+		A1B92159246DE69C0012F575 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A1B9215A246DE6B40012F575 /* Smack_clone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack_clone-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1B9215B246DE6B50012F575 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A1B92160246DE8D00012F575 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		A1B92162246DE9330012F575 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		A1E0A429246DE2DD002D5830 /* Smack_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E0A42C246DE2DD002D5830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1E0A42E246DE2DD002D5830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1E0A430246DE2DD002D5830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1E0A433246DE2DD002D5830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1E0A435246DE2DE002D5830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1E0A438246DE2DE002D5830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1E0A43A246DE2DE002D5830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E0A43F246DE2DE002D5830 /* Smack_cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smack_cloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E0A443246DE2DE002D5830 /* Smack_cloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smack_cloneTests.swift; sourceTree = "<group>"; };
+		A1E0A445246DE2DE002D5830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E0A44A246DE2DE002D5830 /* Smack_cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smack_cloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E0A44E246DE2DE002D5830 /* Smack_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smack_cloneUITests.swift; sourceTree = "<group>"; };
+		A1E0A450246DE2DE002D5830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BC1718AC5C331A7485088C /* Pods-Smack_clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack_clone.debug.xcconfig"; path = "Target Support Files/Pods-Smack_clone/Pods-Smack_clone.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1E0A426246DE2DD002D5830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D928B56FFDF39B10CFB1BA9B /* Pods_Smack_clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E0A43C246DE2DE002D5830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E0A447246DE2DE002D5830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0948593255D4023D3A07C839 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2BC1718AC5C331A7485088C /* Pods-Smack_clone.debug.xcconfig */,
+				4A08C83A5CAE992039440FFF /* Pods-Smack_clone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1B92158246DE66D0012F575 /* Surppoting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1B92159246DE69C0012F575 /* SWRevealViewController.h */,
+				A1B9215B246DE6B50012F575 /* SWRevealViewController.m */,
+				A1B9215A246DE6B40012F575 /* Smack_clone-Bridging-Header.h */,
+			);
+			path = "Surppoting Files";
+			sourceTree = "<group>";
+		};
+		A1B9215D246DE8950012F575 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1B9215E246DE8A60012F575 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1B9215F246DE8AD0012F575 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1B92160246DE8D00012F575 /* ChannelVC.swift */,
+				A1B92162246DE9330012F575 /* ChatVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1E0A420246DE2DD002D5830 = {
+			isa = PBXGroup;
+			children = (
+				A1E0A42B246DE2DD002D5830 /* Smack_clone */,
+				A1E0A442246DE2DE002D5830 /* Smack_cloneTests */,
+				A1E0A44D246DE2DE002D5830 /* Smack_cloneUITests */,
+				A1E0A42A246DE2DD002D5830 /* Products */,
+				0948593255D4023D3A07C839 /* Pods */,
+				CBDBCF385DEA463DD3693631 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E0A42A246DE2DD002D5830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0A429246DE2DD002D5830 /* Smack_clone.app */,
+				A1E0A43F246DE2DE002D5830 /* Smack_cloneTests.xctest */,
+				A1E0A44A246DE2DE002D5830 /* Smack_cloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E0A42B246DE2DD002D5830 /* Smack_clone */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9215F246DE8AD0012F575 /* Controller */,
+				A1B9215E246DE8A60012F575 /* Model */,
+				A1B9215D246DE8950012F575 /* Views */,
+				A1B92158246DE66D0012F575 /* Surppoting Files */,
+				A1E0A42C246DE2DD002D5830 /* AppDelegate.swift */,
+				A1E0A42E246DE2DD002D5830 /* SceneDelegate.swift */,
+				A1E0A430246DE2DD002D5830 /* ViewController.swift */,
+				A1E0A432246DE2DD002D5830 /* Main.storyboard */,
+				A1E0A435246DE2DE002D5830 /* Assets.xcassets */,
+				A1E0A437246DE2DE002D5830 /* LaunchScreen.storyboard */,
+				A1E0A43A246DE2DE002D5830 /* Info.plist */,
+			);
+			path = Smack_clone;
+			sourceTree = "<group>";
+		};
+		A1E0A442246DE2DE002D5830 /* Smack_cloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0A443246DE2DE002D5830 /* Smack_cloneTests.swift */,
+				A1E0A445246DE2DE002D5830 /* Info.plist */,
+			);
+			path = Smack_cloneTests;
+			sourceTree = "<group>";
+		};
+		A1E0A44D246DE2DE002D5830 /* Smack_cloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E0A44E246DE2DE002D5830 /* Smack_cloneUITests.swift */,
+				A1E0A450246DE2DE002D5830 /* Info.plist */,
+			);
+			path = Smack_cloneUITests;
+			sourceTree = "<group>";
+		};
+		CBDBCF385DEA463DD3693631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CB5ECBD00B88E2C5CB3BBF5 /* Pods_Smack_clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1E0A428246DE2DD002D5830 /* Smack_clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E0A453246DE2DE002D5830 /* Build configuration list for PBXNativeTarget "Smack_clone" */;
+			buildPhases = (
+				664D7A90746B293643F8E474 /* [CP] Check Pods Manifest.lock */,
+				A1E0A425246DE2DD002D5830 /* Sources */,
+				A1E0A426246DE2DD002D5830 /* Frameworks */,
+				A1E0A427246DE2DD002D5830 /* Resources */,
+				6DD616C5437D61BB2F533C8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smack_clone;
+			productName = Smack_clone;
+			productReference = A1E0A429246DE2DD002D5830 /* Smack_clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1E0A43E246DE2DE002D5830 /* Smack_cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E0A456246DE2DE002D5830 /* Build configuration list for PBXNativeTarget "Smack_cloneTests" */;
+			buildPhases = (
+				A1E0A43B246DE2DE002D5830 /* Sources */,
+				A1E0A43C246DE2DE002D5830 /* Frameworks */,
+				A1E0A43D246DE2DE002D5830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E0A441246DE2DE002D5830 /* PBXTargetDependency */,
+			);
+			name = Smack_cloneTests;
+			productName = Smack_cloneTests;
+			productReference = A1E0A43F246DE2DE002D5830 /* Smack_cloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1E0A449246DE2DE002D5830 /* Smack_cloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E0A459246DE2DE002D5830 /* Build configuration list for PBXNativeTarget "Smack_cloneUITests" */;
+			buildPhases = (
+				A1E0A446246DE2DE002D5830 /* Sources */,
+				A1E0A447246DE2DE002D5830 /* Frameworks */,
+				A1E0A448246DE2DE002D5830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E0A44C246DE2DE002D5830 /* PBXTargetDependency */,
+			);
+			name = Smack_cloneUITests;
+			productName = Smack_cloneUITests;
+			productReference = A1E0A44A246DE2DE002D5830 /* Smack_cloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E0A421246DE2DD002D5830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = lebose;
+				TargetAttributes = {
+					A1E0A428246DE2DD002D5830 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+					A1E0A43E246DE2DE002D5830 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A1E0A428246DE2DD002D5830;
+					};
+					A1E0A449246DE2DE002D5830 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A1E0A428246DE2DD002D5830;
+					};
+				};
+			};
+			buildConfigurationList = A1E0A424246DE2DD002D5830 /* Build configuration list for PBXProject "Smack_clone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1E0A420246DE2DD002D5830;
+			productRefGroup = A1E0A42A246DE2DD002D5830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E0A428246DE2DD002D5830 /* Smack_clone */,
+				A1E0A43E246DE2DE002D5830 /* Smack_cloneTests */,
+				A1E0A449246DE2DE002D5830 /* Smack_cloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1E0A427246DE2DD002D5830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E0A439246DE2DE002D5830 /* LaunchScreen.storyboard in Resources */,
+				A1E0A436246DE2DE002D5830 /* Assets.xcassets in Resources */,
+				A1E0A434246DE2DD002D5830 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E0A43D246DE2DE002D5830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E0A448246DE2DE002D5830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		664D7A90746B293643F8E474 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smack_clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DD616C5437D61BB2F533C8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smack_clone/Pods-Smack_clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smack_clone/Pods-Smack_clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smack_clone/Pods-Smack_clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E0A425246DE2DD002D5830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B92163246DE9330012F575 /* ChatVC.swift in Sources */,
+				A1E0A431246DE2DD002D5830 /* ViewController.swift in Sources */,
+				A1E0A42D246DE2DD002D5830 /* AppDelegate.swift in Sources */,
+				A1E0A42F246DE2DD002D5830 /* SceneDelegate.swift in Sources */,
+				A1B9215C246DE6B50012F575 /* SWRevealViewController.m in Sources */,
+				A1B92161246DE8D00012F575 /* ChannelVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E0A43B246DE2DE002D5830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E0A444246DE2DE002D5830 /* Smack_cloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E0A446246DE2DE002D5830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E0A44F246DE2DE002D5830 /* Smack_cloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1E0A441246DE2DE002D5830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1E0A428246DE2DD002D5830 /* Smack_clone */;
+			targetProxy = A1E0A440246DE2DE002D5830 /* PBXContainerItemProxy */;
+		};
+		A1E0A44C246DE2DE002D5830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1E0A428246DE2DD002D5830 /* Smack_clone */;
+			targetProxy = A1E0A44B246DE2DE002D5830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1E0A432246DE2DD002D5830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E0A433246DE2DD002D5830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1E0A437246DE2DE002D5830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E0A438246DE2DE002D5830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1E0A451246DE2DE002D5830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1E0A452246DE2DE002D5830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1E0A454246DE2DE002D5830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BC1718AC5C331A7485088C /* Pods-Smack_clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Smack_clone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.Smack-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Smack_clone/Surppoting Files/Smack_clone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1E0A455246DE2DE002D5830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A08C83A5CAE992039440FFF /* Pods-Smack_clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Smack_clone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.Smack-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Smack_clone/Surppoting Files/Smack_clone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1E0A457246DE2DE002D5830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Smack_cloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.Smack-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smack_clone.app/Smack_clone";
+			};
+			name = Debug;
+		};
+		A1E0A458246DE2DE002D5830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Smack_cloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.Smack-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smack_clone.app/Smack_clone";
+			};
+			name = Release;
+		};
+		A1E0A45A246DE2DE002D5830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Smack_cloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.Smack-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smack_clone;
+			};
+			name = Debug;
+		};
+		A1E0A45B246DE2DE002D5830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Smack_cloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.Smack-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smack_clone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1E0A424246DE2DD002D5830 /* Build configuration list for PBXProject "Smack_clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E0A451246DE2DE002D5830 /* Debug */,
+				A1E0A452246DE2DE002D5830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E0A453246DE2DE002D5830 /* Build configuration list for PBXNativeTarget "Smack_clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E0A454246DE2DE002D5830 /* Debug */,
+				A1E0A455246DE2DE002D5830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E0A456246DE2DE002D5830 /* Build configuration list for PBXNativeTarget "Smack_cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E0A457246DE2DE002D5830 /* Debug */,
+				A1E0A458246DE2DE002D5830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E0A459246DE2DE002D5830 /* Build configuration list for PBXNativeTarget "Smack_cloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E0A45A246DE2DE002D5830 /* Debug */,
+				A1E0A45B246DE2DE002D5830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E0A421246DE2DD002D5830 /* Project object */;
+}
