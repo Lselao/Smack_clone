@@ -33,7 +33,7 @@
                     <view key="view" contentMode="scaleToFill" id="Rd8-cA-xGD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="EOa-Gs-MSo"/>
                     </view>
                 </viewController>
@@ -85,6 +85,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0Lp-hI-EBz"/>
                     </view>
+                    <connections>
+                        <outlet property="menuBtn" destination="mXS-mB-2pr" id="mTo-R1-JE2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKQ-hp-9Dh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

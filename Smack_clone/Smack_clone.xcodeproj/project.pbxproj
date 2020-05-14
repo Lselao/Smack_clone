@@ -12,7 +12,6 @@
 		A1B92163246DE9330012F575 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B92162246DE9330012F575 /* ChatVC.swift */; };
 		A1E0A42D246DE2DD002D5830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0A42C246DE2DD002D5830 /* AppDelegate.swift */; };
 		A1E0A42F246DE2DD002D5830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0A42E246DE2DD002D5830 /* SceneDelegate.swift */; };
-		A1E0A431246DE2DD002D5830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0A430246DE2DD002D5830 /* ViewController.swift */; };
 		A1E0A434246DE2DD002D5830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A432246DE2DD002D5830 /* Main.storyboard */; };
 		A1E0A436246DE2DE002D5830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A435246DE2DE002D5830 /* Assets.xcassets */; };
 		A1E0A439246DE2DE002D5830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A437246DE2DE002D5830 /* LaunchScreen.storyboard */; };
@@ -49,7 +48,6 @@
 		A1E0A429246DE2DD002D5830 /* Smack_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E0A42C246DE2DD002D5830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1E0A42E246DE2DD002D5830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1E0A430246DE2DD002D5830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1E0A433246DE2DD002D5830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1E0A435246DE2DE002D5830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1E0A438246DE2DE002D5830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -162,7 +160,6 @@
 				A1B92158246DE66D0012F575 /* Surppoting Files */,
 				A1E0A42C246DE2DD002D5830 /* AppDelegate.swift */,
 				A1E0A42E246DE2DD002D5830 /* SceneDelegate.swift */,
-				A1E0A430246DE2DD002D5830 /* ViewController.swift */,
 				A1E0A432246DE2DD002D5830 /* Main.storyboard */,
 				A1E0A435246DE2DE002D5830 /* Assets.xcassets */,
 				A1E0A437246DE2DE002D5830 /* LaunchScreen.storyboard */,
@@ -374,7 +371,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B92163246DE9330012F575 /* ChatVC.swift in Sources */,
-				A1E0A431246DE2DD002D5830 /* ViewController.swift in Sources */,
 				A1E0A42D246DE2DD002D5830 /* AppDelegate.swift in Sources */,
 				A1E0A42F246DE2DD002D5830 /* SceneDelegate.swift in Sources */,
 				A1B9215C246DE6B50012F575 /* SWRevealViewController.m in Sources */,
