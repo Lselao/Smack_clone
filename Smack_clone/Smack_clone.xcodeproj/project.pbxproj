@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A17B04F72472649B003C6BD2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B04F62472649B003C6BD2 /* LoginVC.swift */; };
+		A17B04F924726943003C6BD2 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B04F824726943003C6BD2 /* CreateAccountVC.swift */; };
+		A19AF042246E87AC0027556E /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AF041246E87AC0027556E /* Constance.swift */; };
 		A1B9215C246DE6B50012F575 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B9215B246DE6B50012F575 /* SWRevealViewController.m */; };
 		A1B92161246DE8D00012F575 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B92160246DE8D00012F575 /* ChannelVC.swift */; };
 		A1B92163246DE9330012F575 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B92162246DE9330012F575 /* ChatVC.swift */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		0CB5ECBD00B88E2C5CB3BBF5 /* Pods_Smack_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A08C83A5CAE992039440FFF /* Pods-Smack_clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack_clone.release.xcconfig"; path = "Target Support Files/Pods-Smack_clone/Pods-Smack_clone.release.xcconfig"; sourceTree = "<group>"; };
+		A17B04F62472649B003C6BD2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A17B04F824726943003C6BD2 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		A19AF041246E87AC0027556E /* Constance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
 		A1B92159246DE69C0012F575 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		A1B9215A246DE6B40012F575 /* Smack_clone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack_clone-Bridging-Header.h"; sourceTree = "<group>"; };
 		A1B9215B246DE6B50012F575 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -96,6 +102,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A19AF040246E87810027556E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A19AF041246E87AC0027556E /* Constance.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		A1B92158246DE66D0012F575 /* Surppoting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +139,8 @@
 			children = (
 				A1B92160246DE8D00012F575 /* ChannelVC.swift */,
 				A1B92162246DE9330012F575 /* ChatVC.swift */,
+				A17B04F62472649B003C6BD2 /* LoginVC.swift */,
+				A17B04F824726943003C6BD2 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,6 +170,7 @@
 		A1E0A42B246DE2DD002D5830 /* Smack_clone */ = {
 			isa = PBXGroup;
 			children = (
+				A19AF040246E87810027556E /* Utilities */,
 				A1B9215F246DE8AD0012F575 /* Controller */,
 				A1B9215E246DE8A60012F575 /* Model */,
 				A1B9215D246DE8950012F575 /* Views */,
@@ -372,6 +389,9 @@
 			files = (
 				A1B92163246DE9330012F575 /* ChatVC.swift in Sources */,
 				A1E0A42D246DE2DD002D5830 /* AppDelegate.swift in Sources */,
+				A17B04F924726943003C6BD2 /* CreateAccountVC.swift in Sources */,
+				A17B04F72472649B003C6BD2 /* LoginVC.swift in Sources */,
+				A19AF042246E87AC0027556E /* Constance.swift in Sources */,
 				A1E0A42F246DE2DD002D5830 /* SceneDelegate.swift in Sources */,
 				A1B9215C246DE6B50012F575 /* SWRevealViewController.m in Sources */,
 				A1B92161246DE8D00012F575 /* ChannelVC.swift in Sources */,
