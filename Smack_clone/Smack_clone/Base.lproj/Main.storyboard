@@ -30,7 +30,7 @@
         <scene sceneID="Prf-M6-zQc">
             <objects>
                 <viewController id="rYX-MA-22b" customClass="ChannelVC" customModule="Smack_clone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Rd8-cA-xGD">
+                    <view key="view" contentMode="scaleToFill" id="Rd8-cA-xGD" customClass="GradientView" customModule="Smack_clone" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
